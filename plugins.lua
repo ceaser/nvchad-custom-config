@@ -1,17 +1,13 @@
 local plugins = {
   {
-    'christoomey/vim-tmux-navigator',
-    lazy = false,
-  },
-  {
     "nvim-treesitter/nvim-treesitter",
     opts = {
       ensure_installed = {
-        -- defaults 
+        -- defaults
         "vim",
         "lua",
 
-        -- web dev 
+        -- web dev
         "html",
         "css",
         "javascript",
