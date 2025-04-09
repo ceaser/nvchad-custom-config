@@ -1,5 +1,9 @@
 local plugins = {
   {
+    'augmentcode/augment.vim',
+     event = { "InsertEnter" },
+  },
+  {
     "nvim-treesitter/nvim-treesitter",
     opts = {
       ensure_installed = {

@@ -17,4 +17,10 @@ M.plugins = 'custom.plugins'
 
 M.mappings = require "custom.mappings"
 
+-- let g:augment_workspace_folders = ['/path/to/project', '~/another-project']
+-- vim.g.augment_workspace_folders = {
+--   '/path/to/project',
+--   vim.fn.expand('~/another-project')
+-- }
+
 return M
